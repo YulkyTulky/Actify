@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>activatorListener</key>
+			<string>com.yulkytulky.actifyListener</string>
+			<key>bundle</key>
+			<string>LibActivator</string>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Activation Methods</string>
+			<key>icon</key>
+			<string>/Applications/Activator.app/IconGlyph.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.yulkytulky.actify</string>
+			<key>key</key>
+			<string>title</string>
+			<key>label</key>
+			<string>Notification Title:</string>
+			<key>placeholder</key>
+			<string>Title</string>
+			<key>PostNotification</key>
+			<string>com.yulkytulky.actify/saved</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.yulkytulky.actify</string>
+			<key>key</key>
+			<string>message</string>
+			<key>label</key>
+			<string>Notification Message:</string>
+			<key>placeholder</key>
+			<string>Message</string>
+			<key>PostNotification</key>
+			<string>com.yulkytulky.actify/saved</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Choose an application from which the notification will be displayed. Keep in mind that the notification will only be displayed by applications that have notification privileges turned ON (through stock iOS settings). It may be impossible to send notifications from certain apps.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>bundle</key>
+			<string>AppList</string>
+			<key>isController</key>
+			<true/>
+			<key>label</key>
+			<string>Notification Application</string>
+			<key>icon</key>
+			<string>icon.png</string>
+			<key>ALSettingsPath</key>
+			<string>/var/mobile/Library/Preferences/com.yulkytulky.actify~bundleID.plist</string>
+			<key>ALSettingsKey</key>
+			<string>bundleID</string>
+			<key>ALSingleEnabledMode</key>
+			<true/>
+			<key>ALChangeNotification</key>
+			<string>com.yulkytulky.actify/saved</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Developed by YulkyTulky</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>github</string>
+			<key>icon</key>
+			<string>github.png</string>
+			<key>label</key>
+			<string>Source Code  ❤️</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Actify</string>
+</dict>
+</plist>

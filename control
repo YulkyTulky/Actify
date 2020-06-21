@@ -1,0 +1,10 @@
+Package: com.yulkytulky.actify
+Name: Actify
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Activator event to display a custom notification from any app
+Maintainer: YulkyTulky
+Author: YulkyTulky
+Section: Addons (Activator)
+Depends: mobilesubstrate (>= 0.9.5000), libactivator (>= 1.8.3), applist, com.cokepokes.libnotifications
+Depiction: https://yulkytulky.github.io/TweakRepo/depictions/?p=com.yulkytulky.actify
