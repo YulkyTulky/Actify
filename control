@@ -1,6 +1,6 @@
 Package: com.yulkytulky.actify
 Name: Actify
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Description: Activator event to display a custom notification from any app
 Maintainer: YulkyTulky
