@@ -11,5 +11,5 @@ Actify_LIBRARIES = activator
 Actify_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-SUBPROJECTS += ActifyPreferences
+SUBPROJECTS += ActifyPreferences ActifyTool
 include $(THEOS_MAKE_PATH)/aggregate.mk

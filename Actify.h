@@ -1,6 +1,7 @@
+//--Actify Listener--//
 #include <objc/runtime.h>
 #include <dlfcn.h>
-#import <libactivator/libactivator.h>
+#include <libactivator/libactivator.h>
 
 //--Preferences Variables--//
 NSString *title;
@@ -15,3 +16,11 @@ NSString *bundleID;
 
 @interface ActifyListener : NSObject<LAListener>
 @end
+
+//--Actify Tool--//
+#include <stdio.h>
+#include <unistd.h>
+
+//--Function Declarations--//
+void help();
+void showNotification(NSString *title, NSString *message, NSString *bundleID);
